@@ -1,0 +1,34 @@
+body {
+    margin: 2em;
+    padding: 0;
+    background: lightblue;
+}
+
+.table-desk {
+    background-color: #363636;
+    color: white;
+/*    border-radius: 70%;*/
+    column-gap: 2vw;
+}
+
+.table-desk tr {
+    border-bottom: 2px solid dimgray;
+    padding: 5em;
+}
+
+.table-desk th {
+    row-span: 2;
+}
+
+.table-desk td {
+    margin: 2em;
+    border: 2px solid white;
+}
+
+.table-desk td:first-child {
+    column-span: 4;
+}
+
+.table-desk tr:last-child {
+    border-bottom: none;
+}
