@@ -1,28 +1,44 @@
+.table-desk {
+    background-color: #363636;
+    color: white;
+    font-size: 2em;
+    border-radius: 60px;
+    column-gap: 2vw;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.audi-colored {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    color: lightblue;
+    font-weight: 700;
+}
+
 body {
     margin: 2em;
     padding: 0;
     background: lightblue;
 }
 
-.table-desk {
-    background-color: #363636;
-    color: white;
-/*    border-radius: 70%;*/
-    column-gap: 2vw;
+.table-desk tr {
+/*    display: flex;
+    flex-direction: row;
+    justify-content: space-between;*/
+    border-radius: 70px;
+    border-bottom: 2px solid gray;
+/*    padding: 2em;*/
 }
 
-.table-desk tr {
-    border-bottom: 2px solid dimgray;
-    padding: 5em;
-}
 
 .table-desk th {
+    padding: 2em;
     row-span: 2;
 }
 
 .table-desk td {
     margin: 2em;
-    border: 2px solid white;
 }
 
 .table-desk td:first-child {
@@ -32,3 +48,21 @@ body {
 .table-desk tr:last-child {
     border-bottom: none;
 }
+
+.pair-list {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.pair-list p {
+    max-width: 100%;
+    max-height: 100%;
+    text-align: left;
+}
+
+.pair-list p:after {
+    outline: 2px solid gray;
+}
+
+
