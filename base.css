@@ -1,6 +1,17 @@
+@font-face {
+    font-family: roboto;
+    src: url("static/RobotoMono-Medium.ttf");
+}
+
+@font-face {
+    font-family: roboto-bold;
+    src: url("static/RobotoMono-Bold.ttf");
+}
+
 .table-desk {
     background-color: #363636;
     color: white;
+    font-family: roboto;
     font-size: 2em;
     border-radius: 60px;
     column-gap: 2vw;
