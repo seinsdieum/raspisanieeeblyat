@@ -11,7 +11,7 @@
 .table-desk {
     background-color: #363636;
     color: white;
-    font-family: roboto;
+    font-family: roboto, serif;
     font-size: 2em;
     /*border-radius: 60px;*/
     column-gap: 2vw;
@@ -32,6 +32,7 @@ body {
     padding: 0;
     background: lightblue;
     height: 100%;
+    page-break-before: avoid;
 }
 
 .table-desk tr {
